@@ -1,6 +1,6 @@
 <?php
 
-namespace Leo\popo;
+namespace Leo\PoPoHyperf;
 
 use Closure;
 use FastRoute\Dispatcher;
@@ -46,7 +46,7 @@ class PoPoMiddleware implements MiddlewareInterface
                         continue;
                     }
                     $formRequest = $this->container->get($parameterType->getName());
-                    if ($formRequest instanceof Popo) {
+                    if ($formRequest instanceof PoPo) {
                         $formRequest->setData($formRequest->all());
                     }
                 }

@@ -1,6 +1,6 @@
 <?php
 
-namespace Leo\popo;
+namespace Leo\PoPoHyperf;
 
 use Attribute;
 
