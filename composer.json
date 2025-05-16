@@ -1,0 +1,29 @@
+{
+    "name": "leo/popo-hyperf",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Leo\\Popo\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "leo",
+            "email": "a805964774@foxmail.com"
+        }
+    ],
+    "require-dev": {
+        "hyperf/framework": "^3.1",
+        "hyperf/http-server": "^3.1",
+        "hyperf/stringable": "^3.1",
+        "hyperf/validation": "^3.1"
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "sort-packages": true,
+        "platform": {
+            "php": "8.2"
+        }
+    }
+}
