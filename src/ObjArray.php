@@ -1,6 +1,6 @@
 <?php
 
-namespace Leo\PoPoHyperf;
+namespace JLeo\PoPoHyperf;
 
 use Attribute;
 
