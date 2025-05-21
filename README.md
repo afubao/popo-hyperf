@@ -3,7 +3,7 @@
 此包适用hyperf框架
 
 thinkphp webman框架可参考下边的
-https://gitee.com/leo58/codes/8uylcdqb05smfa14worz935
+https://github.com/afubao/popo
 # 使用
 需要再config中启用popo中间件
 PoPoMiddleware::class
