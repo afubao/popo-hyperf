@@ -2,8 +2,8 @@
 
 此包适用hyperf框架
 
-thinkphp webman框架可参考下边的
-https://github.com/afubao/popo
+thinkphp 框架可参考下边的
+https://github.com/afubao/popo-thinkphp
 # 使用
 需要再config中启用popo中间件
 PoPoMiddleware::class
